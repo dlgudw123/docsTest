@@ -11,7 +11,7 @@ flowchart LR
     end
 
     subgraph two
-        start([start]) --> inp1[/"`**볼드**`"/]
+        start([start]) --> inp1[/입력/]
         inp1 --> fun1[[calc]]
         fun1 --> end1([end])
     end
